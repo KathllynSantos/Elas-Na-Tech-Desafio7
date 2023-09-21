@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oxanium:wght@300;400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="src/img/Logo_KS.png">
+    <title>Calculadora</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="https://github.com/KathllynSantos" target="_blank"><i class="ri-github-fill"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/kathllynleticiadesenvolvedora/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                <li><a href="https://www.instagram.com/devkathllynsantos/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <div class="numeros">
+            <input class="numero" type="number" id="primeiroNumero" placeholder="0">
+            <input class="numero"  type="number" id="segundoNumero" placeholder="0">
+        </div>
+        <div class="btn">
+            <input type="button" value="+" id="btnSomar" class="botoes">
+            <input type="button" value="-" id="btnSubtrair" class="botoes">
+            <input type="button" value="/" id="btnDividir" class="botoes">
+            <input type="button" value="*" id="btnMultiplicar" class="botoes">
+            
+        </div>
+        <div class="btn-limpar">  
+            <input type="button" value="Limpar" id="btnLimpar" class="btnLimpar">
+
+        </div>
+        <div class="total">
+            <span class="resultado" id="resultado">Resultado</span>
+        </div>
+    </div>
+
+    <footer>
+        <h4>
+            &copy; Criado por Kathllyn Santos | Elas Na Tech 2023
+        </h4>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
