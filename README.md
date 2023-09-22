@@ -23,3 +23,6 @@ Esses conceitos são essenciais para tornar as páginas da web interativas e din
 <img src= "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 </div>
 <h2> Imagens do Desafio </h2>
+
+![image](https://github.com/KathllynSantos/Elas-Na-Tech-Desafio7/assets/120657741/9f25f9fc-791a-40dd-b323-037be940ba49)
+
